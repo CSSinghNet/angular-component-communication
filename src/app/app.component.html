@@ -1,0 +1,12 @@
+<!-- main app container -->
+<div class="container text-center my-3">
+    <router-outlet></router-outlet>
+    <div *ngFor="let message of messages" class="alert alert-sm alert-info">{{message.text}}</div>
+</div>
+<!-- credits -->
+<div class="text-center">
+    <p>
+        <a href="https://jasonwatmore.com/post/2020/04/29/angular-9-communicating-between-components-with-observable-subject" target="_top">Angular 9 - Communicating Between Components with Observable & Subject</a>
+    </p>
+   
+</div>
